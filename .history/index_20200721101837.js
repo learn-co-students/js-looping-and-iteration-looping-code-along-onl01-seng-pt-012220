@@ -11,7 +11,7 @@ function writeCards(names,event) {
 
 function countDown(num) {
     let startPoint = num;
-    while (startPoint>=0){
+    while (startPoint>0){
         console.log(startPoint--);
     }
 }

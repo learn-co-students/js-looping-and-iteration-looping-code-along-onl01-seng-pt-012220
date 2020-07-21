@@ -8,10 +8,3 @@ function writeCards(names,event) {
     }
     return cards;
 }
-
-function countDown(num) {
-    let startPoint = num;
-    while (startPoint>=0){
-        console.log(startPoint--);
-    }
-}
